@@ -1,0 +1,106 @@
+html {
+  background-image: linear-gradient(to right, #42f4f4, #FFF)
+}
+
+footer {
+  max-width:940px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:450px;
+  text-align: center;
+  font-size: 8px;
+}
+
+.title{
+  text-align: right;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.title h1 { 
+  margin-top: -4px;
+  margin-bottom: -23px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #111; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 45px; 
+  font-weight: 900; 
+  letter-spacing: -4px; 
+  line-height: -15;
+}
+
+#cont{
+  max-width:940px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+#box-A {
+  background: url(../images/background.jpg) right 55% no-repeat;
+  background-size: 400px;
+  width: 90%;
+  height: 38px;
+  float:left;
+  margin-bottom:30px;
+  background-color:#c49baa;
+  border: 0 none;
+}
+
+#box-A:hover {
+  background-color: #FF0066 ;
+}
+
+#box-B{
+  background: url(../images/background.jpg) left 70% no-repeat;
+  background-size: 300px;
+  width: 75%;
+  float: right;
+  margin-bottom:30px;
+  margin-right: 40px;
+  height: 38px;
+  background-color:#39B7DC;
+  border: 0 none;
+}
+
+#box-B:hover {
+  background-color: #ce428d ;
+}
+
+#box-C{
+  background: url(../images/background.jpg) right 85% no-repeat;
+  background-size: 450px;
+  width:100%;
+  margin-bottom:30px;
+  margin-left:50px;
+  height: 38px;
+  background-color:#41a6f4;
+  width:80%;
+  float:left;
+  box-sizing: border-box;
+}
+
+#box-C p{
+  margin-left: 10px;
+}
+
+#box-C:hover{
+  background-color: #e450c4;
+}
+
+#box-D{
+  background: url(../images/background.jpg) left 45% no-repeat;
+  background-size: 300px;
+  width: 75%;
+  float: left;
+  margin-bottom:30px;
+  margin-left: 150px;
+  height: 38px;
+  background-color:#d1f94a;
+  border: 0 none;
+}
+
+#box-D:hover {
+  background-color: #ff8766 ;
+}
